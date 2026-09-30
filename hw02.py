@@ -29,7 +29,12 @@ def print_fancy(a, b, ab_multadd):
     # ADD a Docstring for this function
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
-    pass
+    print("****************")
+    print("RESULTS:")
+    print("first number:",a)
+    print("second number:",b)
+    print("multadd result:",ab_multadd)
+    print("================")
 
 def main ():
     # ADD a Docstring for this function
@@ -54,7 +59,7 @@ def main ():
     #  Complete The line below to call print_fancy
     #  the call should provide the arguments x, y, and xy_multadd you obtained above;
 
-    # TODO: add your call instead of this line
+    print_fancy(x, y, xy_multadd)
 
 
     # Do not modify this final print statement
