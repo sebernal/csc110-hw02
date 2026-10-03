@@ -1,10 +1,13 @@
+# Name: Sophia Bernal 
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
-    # ADD a Docstring for this function
+    """take two ints, return x and y"""
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
+    # collect user input for x 
     x = int(input("give me x: "))
+    # collect user inpute for y
     y = int(input("give me y: "))
     return x,y
 
@@ -17,10 +20,15 @@ def compute_multadd(a, b):
     # ADD a Docstring for this function
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
+    # Save the product of a*b in the variable mult_result 
     mult_result= a*b
+    # print the result of a*b 
     print("mult result:",mult_result)
+    # Save the sum of a+b in the variable add_result
     add_result= a+b
+    # print the result of a+b
     print("add result:",add_result)
+    # return the result of (a*b)/(a+b)
     return mult_result/add_result
   
 # Task 3.1:
@@ -30,6 +38,7 @@ def print_fancy(a, b, ab_multadd):
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     print("****************")
+    # print the user input for x and y and the result of (a*b)/(a+b) 
     print("RESULTS:")
     print("first number:",a)
     print("second number:",b)
